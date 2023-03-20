@@ -1,0 +1,85 @@
+.body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Intro ";
+}
+.body__conteiner-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10vh 90vh 10vh;
+}
+.header__conteiner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 40px;
+  max-width: 100vw;
+  justify-items: center;
+}
+.header__btn {
+  background-color: #5222d0;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: inherit;
+  max-width: 115px;
+  max-height: 38px;
+  font-family: "Intro ";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+}
+.main__conteiner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.main__conteiner-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.conteiner-flex__h1 {
+  font-family: "Intro ";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+}
+.conteiner-flex__p {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+}
+.conteiner-flex__btn {
+  background: #5222d0;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  color: #ffffff;
+}
+.btn__icon-buy {
+  background-image: url("/week8/БЭМ/assets/images/ico.png");
+}
+.main__image {
+  object-fit: cover;
+  width: 320px;
+  height: 180px;
+}
+.footer__ul-flex {
+  display: flex;
+  flex-direction: row;
+}
+.footer__li {
+  margin: 20px;
+  list-style-type: none;
+}
+.footer__link {
+  text-decoration: none;
+  color: #5222d0;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+}
