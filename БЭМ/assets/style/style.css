@@ -8,7 +8,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 10vh 90vh 10vh;
 }
-.header__conteiner-grid {
+.header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 40px;
@@ -28,7 +28,7 @@
   font-weight: 400;
   font-size: 13px;
 }
-.main__conteiner-grid {
+.main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -39,19 +39,19 @@
   align-items: center;
   justify-content: center;
 }
-.conteiner-flex__h1 {
+.main__h1 {
   font-family: "Intro ";
   font-style: normal;
   font-weight: 400;
   font-size: 60px;
 }
-.conteiner-flex__p {
+.main__p {
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
 }
-.conteiner-flex__btn {
+.main__btn {
   background: #5222d0;
   border-radius: 100px;
   font-style: normal;
@@ -59,7 +59,7 @@
   font-size: 35px;
   color: #ffffff;
 }
-.btn__icon-buy {
+.main__icon-buy {
   background-image: url("/week8/БЭМ/assets/images/ico.png");
 }
 .main__image {

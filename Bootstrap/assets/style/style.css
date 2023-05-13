@@ -1,3 +1,8 @@
+.body {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
 .container-fluid__body {
   border-radius: 5px;
 }
@@ -13,19 +18,10 @@
 .container-fluid {
   display: flex;
   justify-content: space-between;
-  max-width: 100%;
 }
 .image1 {
-  width: 34.72vw;
-  height: 325px;
   background-color: rgb(189, 186, 186);
   object-fit: cover;
-  justify-content: s consectetur adipisicing elit. Sapiente esse necessitatibus
-      neque 500 * 325 Card title Lorem ipsum dolor sit amet,
-    consectetur adipisicing elit. Sapiente esse necessitatibus neque 500 * 325
-      Card title Lorem ipsum dolor sit amet,
-    consectetur adipisicing elit. Sapiente esse necessitatibus neque Copyright
-      (c) Your Website 2019pace-between;
 }
 .card1 {
   display: flex;
@@ -36,7 +32,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 5px;
-  margin-top: 30px;
+  margin: 60px;
   grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
 }
 .color {
